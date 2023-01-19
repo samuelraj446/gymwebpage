@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:"poppines",sans-serif;
+}
+header{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+    z-index: 1000;
+
+}
+header .logo {
+    position: relative;
+    font-size: 2rem;
+    color: rgb(251, 247, 247);
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.banner{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    background: #111;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.toggle{
+    
+    cursor: pointer;
+    max-width: 100%;
+}
+.icon{
+    width: 100px;
+    color: white;
+}
+span{
+    color: green;
+}
+.banner::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 400px;
+    height: 100%;
+    background: #37d72f;
+    transform-origin: top;
+    transform: skewX(-25deg);
+    z-index: 1;
+}
+.textbox {
+    position: relative;
+    max-width: 600px;
+    z-index: 2;
+}
+ h1 {
+    color: azure;
+    font-size: 3rem;
+}
+p{
+    color: #fff;
+    font-size: 1rem;
+}
+.textbox a {
+    color: blue;
+    text-decoration: none;
+}
+.imgbox{
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50% ;
+    z-index: 2;
+}
+ 
+ 
